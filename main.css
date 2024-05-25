@@ -1,0 +1,81 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    padding: 10px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.outfit-outfit {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400, 700;
+    font-style: normal;
+}
+
+body {
+    flex-direction: column;
+    background-color: #D5E1EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    height: 497px;
+    overflow: hidden;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.card-image {
+    border-radius: 3%;
+    width: 288px;
+    height: 288px;
+    object-fit: cover;
+}
+
+.card_title{
+    font-family: "Outfit", sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    line-height: auto;
+    text-align: center;
+
+}
+
+.title_box{
+    justify-content: center;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.par_box{
+    justify-content: center;
+    padding-bottom: 40px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.card_description{
+    font-family: "Outfit", sans-serif;
+    line-height: auto;
+    text-align: center;
+    font-size: 15px;
+    font-weight:100;
+    color: #979797;
+}
